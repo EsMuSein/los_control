@@ -1,0 +1,7 @@
+#statue:0-正常状态;1-停止;2-继续
+int32 statue
+float32 speed
+geometry_msgs/PoseArray fixtack_poses
+
+---
+bool receive

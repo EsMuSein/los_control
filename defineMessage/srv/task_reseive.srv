@@ -1,0 +1,9 @@
+#task_mode 任务模式:0-固定点;1-UWB跟踪;2-轨道模式
+int32 task_mode
+float32 speed
+geometry_msgs/Pose sigle_pose
+geometry_msgs/Pose uwb_pose
+geometry_msgs/PoseArray fixtack_poses
+
+---
+bool receive

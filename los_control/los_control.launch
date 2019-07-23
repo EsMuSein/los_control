@@ -1,0 +1,5 @@
+<launch>
+
+<node pkg="los_control" type="los_control" name="los_control" output="screen"/>
+
+</launch>
